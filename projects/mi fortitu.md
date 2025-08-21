@@ -33,12 +33,6 @@ The app is designed for academic and competitive use on 42 campuses, and offers 
 
 ---
 
-## 🔗 Links
-- 📂 **Source code:** Private (Request access by email)
-- 📧 **Contact:** [pablovilchez.r@gmail.com](mailto:pablovilchez.r@gmail.com)
-
----
-
 ## 🏗️ Challenges
 - Designing a clean and scalable architecture – balancing feature-based organization with shared core elements while avoiding duplication
 - Managing authentication flows – handling Oauth2, token refreshing, and centralized request handling.

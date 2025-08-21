@@ -10,7 +10,7 @@ The source code for each project remains private, but you can request access if 
 
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
-| **Mi Fortitu** | Mobile app for 42 students. | Flutter, Bloc, OAuth2 |  |
+| **Mi Fortitu** | Mobile app for 42 students. | Flutter, Bloc, OAuth2 | [view](./projects/mi%20fortitu.md) |
 | **FatumLink Cthulhu** | Desktop tool for running tabletop RPG sessions of *Call of Cthulhu*. | Flutter, Drift, SQLite |  |
 
 ---
