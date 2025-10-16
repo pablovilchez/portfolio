@@ -6,12 +6,22 @@ The source code for each project remains private, but you can request access if 
 
 ---
 
-## 📂 Projects
+## 📂 42 Projects
 
 | Project | Description | Technologies | Link |
 |---------|-------------|--------------|------|
+| **Cub3D** | A simple 3D game engine. | C, raycasting | [view](./projects/cub3d.md) |
+| **Inception** | A containerized ecosystem built from scratch, mastering Docker and system architecture. | Docker, MariaDB, Wordpress, Nginx | [view](./projects/inception.md) |
+| **Webserv** | A fully functional HTTP server built from scratch in C++, inspired by Nginx. | C++, CGI, sockets | [view](./projects/webserv.md) |
+| **Transcendence** | A full-stack web application for real-time Pong battles, featuring authentication, chat, and multiplayer gameplay. | TypeScript, NestJS, PostgreSQL, Docker, JWT | [view](./projects/transcendence.md) |
+
+## 📂 Flutter Projects
+
+| Project | Description | Technologies | Link |
+|---------|-------------|--------------|------|
+| **Hangouts** | A mobile contacts and messaging app with SMS chat functionality. | Flutter, Bloc | [view](./projects/hangouts.md) |
 | **Mi Fortitu** | Mobile app for 42 students. | Flutter, Bloc, OAuth2 | [view](./projects/mi%20fortitu.md) |
-| **FatumLink Cthulhu** | Desktop tool for running tabletop RPG sessions of *Call of Cthulhu*. | Flutter, Drift, SQLite |  |
+| **FatumLink Cthulhu** | Desktop tool for running tabletop RPG sessions of *Call of Cthulhu*. | Flutter, Drift, SQLite |  [view](./projects/fatumlink%20cthulhu.md)|
 
 ---
 
