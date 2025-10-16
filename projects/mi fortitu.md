@@ -1,6 +1,6 @@
 # 📌 Mi Fortitú
 
-**Type:** Multiplatform app  
+**Type:** Mobile app  
 **Tecnologies:** Flutter, Bloc, REST API, OAuth2, Supabase, Clean Architecture  
 **Status:** Beta
 
@@ -23,8 +23,8 @@ The app is designed for academic and competitive use on 42 campuses, and offers 
 
 ---
 
-## 🖼️ Capturas y vídeos
-![Login and registration screen](../assets/mi_fortitu/mi_fortitu_01.png)  
+## 🖼️ Screenshots
+![Login and registration screen](../assets/mi_fortitu/mi_fortitu_01.png)
 ![Home page with events and sections](../assets/mi_fortitu/mi_fortitu_02.png)
 ![List of projects](../assets/mi_fortitu/mi_fortitu_03.png)
 ![Slot creation screen](../assets/mi_fortitu/mi_fortitu_04.png)
