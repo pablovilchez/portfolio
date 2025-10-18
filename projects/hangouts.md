@@ -22,19 +22,24 @@ Designed with Flutter, it demonstrates cross-platform mobile development skills,
 ---
 
 ## 🖼️ Screenshots
-![Descripción de la imagen](../assets/ejemplo-screenshot1.png)  
-![Descripción de la imagen](../assets/ejemplo-screenshot2.png)
+<p align="center">
+  <img src="../assets/hangouts/hangouts_01.jpg" width="200" />
+  <img src="../assets/hangouts/hangouts_02.jpg" width="200" />
+  <img src="../assets/hangouts/hangouts_03.jpg" width="200" />
+  <img src="../assets/hangouts/hangouts_04.jpg" width="200" />
+</p>
 
 ---
 
 ## 🏗️ Challenges
-- Resumen de los retos técnicos que resolviste.
-- Menciona decisiones clave de arquitectura o tecnologías.
-- Explica brevemente si hubo optimizaciones interesantes.
+- Implementing reliable local storage and synchronization for contacts.
+- Integrating device-specific APIs for messaging.
+- Managing app state across multiple screens with Bloc to avoid UI inconsistencies.
+- Designing a user-friendly and responsive chat interface.
 
 ---
 
 ## 📅 Timeline
-- **Development started:** Mes/Año
-- **Stable release:** Mes/Año
-- **Last update:** Mes/Año
+- **Development started:** 05/2024
+- **Stable release:**
+- **Last update:** 07/2025

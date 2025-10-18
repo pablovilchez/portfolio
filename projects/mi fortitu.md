@@ -34,12 +34,14 @@ The app is designed for academic and competitive use on 42 campuses, and offers 
 ---
 
 ## 🖼️ Screenshots
-![Login and registration screen](../assets/mi_fortitu/mi_fortitu_01.png)
-![Home page with events and sections](../assets/mi_fortitu/mi_fortitu_02.png)
-![List of projects](../assets/mi_fortitu/mi_fortitu_03.png)
-![Slot creation screen](../assets/mi_fortitu/mi_fortitu_04.png)
-![Cluster locations](../assets/mi_fortitu/mi_fortitu_05.png)
-![Student Search Page](../assets/mi_fortitu/mi_fortitu_06.png)
+<p align="center">
+  <img src="../assets/mi_fortitu/mi_fortitu_01.png" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_02.png" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_03.png" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_04.png" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_05.png" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_06.png" width="200" />
+</p>
 
 ---
 
@@ -53,4 +55,4 @@ The app is designed for academic and competitive use on 42 campuses, and offers 
 ## 📅 Timeline
 - **Development started:** 12/2024
 - **Stable release:**
-- **Last update:** 07/2025
+- **Last update:** 05/2025
