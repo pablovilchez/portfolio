@@ -14,12 +14,12 @@ The app is designed for academic and competitive use on 42 campuses, and offers 
 ---
 
 ## 📲 Download the APK (only for 42 students)
-👉 [Latest APK release](https://drive.google.com/file/d/13Dlou0RSkJuNnef0CyEYTRo-cwQvZ9fE/view?usp=drive_link)
-🕘 **Version:** 0.3.1
-🗓 **Date:** May 13, 2025
+👉 [Latest APK release](https://drive.google.com/file/d/1kdShQmrVF7O7VebzOtWduUX1O86COFvg/view?usp=drive_link)
+🕘 **Version:** 0.5.2
+🗓 **Date:** Jul 21, 2025
 
-👉 [Previous APK release](https://drive.google.com/file/d/13BONsSSbAVDA-2E9rYyRQPih6Nd2p_nc/view?usp=drive_link)
-🕘 **Previous version:** 0.2.3
+👉 [Previous APK release](https://drive.google.com/file/d/1HjquMowNqEss2OO4P_N86nJ_9DrYnrHX/view?usp=drive_link)
+🕘 **Previous version:** 0.5.1
 
 ---
 
