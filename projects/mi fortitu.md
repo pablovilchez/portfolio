@@ -45,12 +45,14 @@ If you are a 42 student and would like to participate as a beta tester to help f
 
 ## 🖼️ Screenshots
 <p align="center">
-  <img src="../assets/mi_fortitu/mi_fortitu_01.png" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_02.png" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_03.png" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_04.png" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_05.png" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_06.png" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_01.webp" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_02.webp" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_03.webp" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_04.webp" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_05.webp" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_06.webp" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_07.webp" width="200" />
+  <img src="../assets/mi_fortitu/mi_fortitu_08.webp" width="200" />
 </p>
 
 ---
