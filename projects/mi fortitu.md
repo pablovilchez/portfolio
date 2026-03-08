@@ -1,35 +1,45 @@
 # 📌 Mi Fortitú
 
-**Type:** Mobile app  
-**Tecnologies:** Flutter, Bloc, REST API, OAuth2, Supabase, Clean Architecture  
-**Status:** Beta
+**Type:** Full-Stack Mobile App  
+**Technologies:** Flutter, Serverpod, Dart (Backend), PostgreSQL, BLoC/Cubit, OAuth2, Clean Architecture  
+**Status:** Closed Beta (Testing Phase)
 
 ---
 
 ## 📖 Description
-Designed for 42 students who want to improve their daily campus experience. Originally developed as a personal specialization project in Flutter, the app has evolved into a tool connected to the official 42 API, offering many of the web's services, with the intention of continuing to implement those that are missing.
+Designed for 42 students who want to improve their daily campus experience. Originally developed as a personal specialization project in Flutter and Supabase, the app has evolved into a robust full-stack solution. It now features a custom Dart backend powered by Serverpod, ensuring type safety and seamless code sharing between the client and the server.
 
-The app is designed for academic and competitive use on 42 campuses, and offers campus information, league and tournament tools, and much more.
+The app connects both to its custom backend and the official 42 API, offering many of the web's services with a tailored mobile experience, with the intention of continuing to implement those that are missing. It is designed for academic and competitive use on 42 campuses, offering campus information, league and tournament tools, event management, and much more.
 
 ---
 
-## 📲 Download the APK (only for 42 students)
-👉 [Latest APK release](https://drive.google.com/file/d/1kdShQmrVF7O7VebzOtWduUX1O86COFvg/view?usp=drive_link)
-🕘 **Version:** 0.5.2
-🗓 **Date:** Jul 21, 2025
+## 🧪 Testing Phase (Android Only)
+Currently, **Mi Fortitú** is in a closed beta testing phase and is only available for **Android** devices. 
 
-👉 [Previous APK release](https://drive.google.com/file/d/1HjquMowNqEss2OO4P_N86nJ_9DrYnrHX/view?usp=drive_link)
-🕘 **Previous version:** 0.5.1
+⚠️ **Exclusive for 42 Students:** This application is strictly intended for active 42 students.
+
+If you are a 42 student and would like to participate as a beta tester to help find bugs or suggest improvements, please send a direct message on **Slack** to my login: **`pvilchez`**.  
+*You will receive instructions and an invitation to download the test version.*
 
 ---
 
 ## ✨ Highlighted Features
-- 📱 **Academic information of students**: Level, skills, projects, assessments, ...
-- 🎮 **Events**: List of upcoming events, descriptions, and subscription options.
-- 🌍 **Evaluation Slots**: Create and delete slots by hour or duration, and view reservations.
-- 🔒 **Peer 2 Peer**: Find students who are working on the same project, and their location if they are online.
-- 🎯 **Clusters**: View online students and their location.
-- 🏆 **Coalitions**: See the ranking of coalitions of the cursus.
+- 🔐 **Dual Authentication System**: Secure App login (Email/Password via Serverpod) coupled with a seamless In-App WebView OAuth2 flow for the 42 Intra API.
+- 📱 **Academic Information**: Keep track of students' levels, skills, projects, and assessments.
+- 🎮 **Events**: List of upcoming events, detailed descriptions, and quick subscription options.
+- 🌍 **Evaluation Slots**: Easily create and delete slots by hour or duration, and view upcoming reservations.
+- 🔒 **Peer 2 Peer**: Find students who are working on the same project, and pinpoint their location if they are online on campus.
+- 🎯 **Clusters**: View online students and track their specific location within the campus clusters.
+- 🏆 **Coalitions**: Check the live ranking of the cursus coalitions.
+- ⚙️ **User Engagement**: Built-in feedback system for users to report bugs or suggest enhancements directly to administrators.
+
+---
+
+## ⚙️ Backend & Architecture (Serverpod)
+- 🚀 **100% Dart Stack**: Unified language for both frontend and backend, allowing shared models, endpoints, and validation logic.
+- 🗄️ **PostgreSQL Database**: Relational database handling user settings, feedbacks, waitlists, and custom app features.
+- 🛡️ **Session Management**: Secure token handling, silent token refreshing, and strict endpoint access control via Serverpod Auth IDP.
+- 🧱 **Clean Architecture Core**: Strict separation of concerns (Data, Domain, Presentation layers) extended from the frontend to handle external API integrations robustly.
 
 ---
 
@@ -46,13 +56,15 @@ The app is designed for academic and competitive use on 42 campuses, and offers 
 ---
 
 ## 🏗️ Challenges
-- Designing a clean and scalable architecture – balancing feature-based organization with shared core elements while avoiding duplication
-- Managing authentication flows – handling Oauth2, token refreshing, and centralized request handling.
-- State management complexity – coordinating multiple Cubits/Blocs across screens and ensuring predictable UI updates.
+- **Migrating to a Custom Backend** – Moving from BaaS (Supabase) to a fully custom Serverpod backend, meaning designing the database schemas, writing custom endpoints, and handling server-side authentication manually.
+- **Complex Authentication Flows** – Orchestrating a dual-login system: managing Serverpod's internal app sessions alongside the 42 API's strict OAuth2 token lifecycle (including an in-app WebView integration for better UX).
+- **Scalable State Management** – Coordinating multiple Cubits/Blocs across screens, managing caching for heavy API calls (like campus layouts), and ensuring predictable UI updates.
+- **Clean Architecture Maintenance** – Balancing feature-based organization with shared core elements across both the Flutter client and the Serverpod server without duplicating logic.
 
 ---
 
 ## 📅 Timeline
-- **Development started:** 12/2024
-- **Stable release:**
-- **Last update:** 05/2025
+- **Concept & Initial Flutter Development:** 12/2024
+- **Beta Release (BaaS Edition):** 07/2025
+- **Fullstack Migration (Serverpod):** 03/2026
+- **Current Stable Version:** 1.2.0
