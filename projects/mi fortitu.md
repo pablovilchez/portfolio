@@ -1,8 +1,13 @@
 # 📌 Mi Fortitú
 
+**The Ultimate Ecosystem for 42 Students**
+
+![Status](https://img.shields.io/badge/Status-Closed_Beta-orange?style=for-the-badge)
+![Tech Stack](https://img.shields.io/badge/Stack-Flutter_%7C_Serverpod_%7C_PostgreSQL-blue?style=for-the-badge)
+
 **Type:** Full-Stack Mobile App  
-**Technologies:** Flutter, Serverpod, Dart (Backend), PostgreSQL, BLoC/Cubit, OAuth2, Clean Architecture  
-**Status:** Closed Beta (Testing Phase)
+**Core Technologies:** Flutter, Serverpod, Dart (Backend), PostgreSQL, BLoC/Cubit, OAuth2, Clean Architecture  
+**Status:** Currently in Testing Phase (Android)
 
 ---
 

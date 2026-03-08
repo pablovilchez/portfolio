@@ -24,6 +24,7 @@ The app allows users to create accounts, engage in live multiplayer games, chat 
 ---
 
 ## 🖼️ Screenshots
+![Transcendence Banner](../assets/transcendence/transcendence_01.png)
 
 ---
 

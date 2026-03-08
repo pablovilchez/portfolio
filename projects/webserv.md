@@ -24,6 +24,7 @@ The server handles static and dynamic content, processes multiple client connect
 ---
 
 ## 🖼️ Screenshots
+![Webserv Banner](../assets/webserv/webserv_01.png)
 
 ---
 

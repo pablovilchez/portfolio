@@ -24,6 +24,7 @@ The project requires setting up multiple interconnected services (web server, da
 ---
 
 ## 🖼️ Screenshots
+![Inception Banner](../assets/inception/inception_01.png)
 
 ---
 
