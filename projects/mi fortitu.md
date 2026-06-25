@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pablovilchez/portfolioprojects/main/assets/banner.png" alt="Mi Fortitu Banner" width="100%">
+  <img src="https://github.com/pablovilchez/portfolio/blob/main/assets/mi_fortitu/mi_fortitu_banner.webp" alt="Mi Fortitu Banner" width="100%">
   
   <h1>Mi Fortitu 🛡️</h1>
   <p><strong>The ultimate mobile companion app for 42 School students.</strong></p>
