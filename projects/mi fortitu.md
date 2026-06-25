@@ -1,84 +1,87 @@
-# 📌 Mi Fortitú
+<div align="center">
+  <img src="https://raw.githubusercontent.com/pablovilchez/portfolioprojects/main/assets/banner.png" alt="Mi Fortitu Banner" width="100%">
+  
+  <h1>Mi Fortitu 🛡️</h1>
+  <p><strong>The ultimate mobile companion app for 42 School students.</strong></p>
 
-**The Ultimate Ecosystem for 42 Students**
+  <a href="URL_APPLE_STORE"><img src="https://img.shields.io/badge/Download_on_the-App_Store-black?style=for-the-badge&logo=apple" alt="Download on App Store"></a>
+  <a href="URL_GOOGLE_PLAY"><img src="https://img.shields.io/badge/Get_it_on-Google_Play-black?style=for-the-badge&logo=google-play" alt="Get it on Google Play"></a>
 
-![Status](https://img.shields.io/badge/Status-Closed_Beta-orange?style=for-the-badge)
-![Tech Stack](https://img.shields.io/badge/Stack-Flutter_%7C_Serverpod_%7C_PostgreSQL-blue?style=for-the-badge)
+  <br><br>
+</div>
 
-**Type:** Full-Stack Mobile App  
-**Core Technologies:** Flutter, Serverpod, Dart (Backend), PostgreSQL, BLoC/Cubit, OAuth2, Clean Architecture  
-**Status:** Currently in Testing Phase (Android & iOS)
+## 📖 About The Project
 
----
+**Mi Fortitu** is a comprehensive, full-stack mobile application designed exclusively for students of the **42 Network**. It serves as an enhanced mobile client for the 42 Intranet, providing students with a fast, native, and gamified experience to track their progress, manage campus life, and connect with peers.
 
-## 📖 Description
-Designed for 42 students who want to improve their daily campus experience. Originally developed as a personal specialization project in Flutter and Supabase, the app has evolved into a robust full-stack solution. It now features a custom Dart backend powered by Serverpod, ensuring type safety and seamless code sharing between the client and the server.
+Built with **Flutter** for a smooth cross-platform experience and powered by **Serverpod** for a robust, scalable Dart backend.
 
-The app connects both to its custom backend and the official 42 API, offering many of the web's services with a tailored mobile experience, with the intention of continuing to implement those that are missing. It is designed for academic and competitive use on 42 campuses, offering campus information, league and tournament tools, event management, and much more.
+### ✨ Key Features
 
----
-
-## 🧪 Testing Phase (Android & iOS)
-Currently, **Mi Fortitú** is in a closed beta testing phase and is available for both **Android** and **iOS** devices. 
-
-⚠️ **Exclusive for 42 Students:** This application is strictly intended for active 42 students.
-
-If you are a 42 student and would like to participate as a beta tester to help find bugs or suggest improvements, please send a direct message on **Slack** to my login: **`pvilchez`**.  
-*You will receive instructions and an invitation to download the test version.*
-
----
-
-## ✨ Highlighted Features
-- 🔐 **Authentication System**: Seamless In-App WebView OAuth2 flow for the 42 Intra API.
-- 👥 **Role-Based Access Control (RBAC)**: A custom system implementing roles for students, testers, staff, and administrators.
-- 📱 **Academic Information**: Keep track of students' levels, skills, projects, and assessments.
-- ♣️ **Clubs**: A new section where users can link a personal or group website, making it accessible and visitable directly from the app.
-- ☕ **Minigame (In Development)**: An interactive pet that you can feed coffee to keep it energized.
-- 🎮 **Events**: List of upcoming events, detailed descriptions, and quick subscription options.
-- 🌍 **Evaluation Slots**: Easily create and delete slots by hour or duration, and view upcoming reservations.
-- 🔒 **Peer 2 Peer**: Find students who are working on the same project, and pinpoint their location if they are online on campus.
-- 🎯 **Clusters**: View online students and track their specific location within the campus clusters.
-- 🏆 **Coalitions**: Check the live ranking of the cursus coalitions.
-- ⚙️ **User Engagement**: Built-in feedback system for users to report bugs or suggest enhancements directly to administrators.
+*   **🔐 42 Intra OAuth Integration**: Secure, seamless login using the official 42 API. No passwords stored, ever.
+*   **📊 Comprehensive Dashboard**: Instant access to your core metrics: Level, Wallet (₳), Evaluation Points, and active Cursus progress.
+*   **🤝 Campus & Coalitions**: Real-time visibility into your campus clusters, student locations, and coalition standings.
+*   **📅 Slot Management**: Easily create and manage your evaluation slots directly from your phone. *(Note: Reserving evaluations is currently restricted by the 42 API. If the app gains traction, we plan to request special permissions from the 42 Network—and potentially Staff privileges—to unlock full reservation capabilities!)*
+*   **🎭 Student Clubs**: Create, discover, and join campus-specific student clubs. Featuring member management and admin dashboards.
+*   **👾 Gamification (Incubator - WIP)**: A unique mini-game experience currently under active development. Hatch eggs in the Incubator and grow your own "Titu" pet as you progress through your 42 journey.
+*   **🌍 Multi-language Support**: Fully localized in English, Spanish, and French.
+*   **🌙 Dark Mode First**: Beautiful UI tailored for both iOS and Android.
+*   **📱 Responsive UI**: We are continuously tweaking the design to ensure perfect responsiveness across all mobile screen sizes and resolutions.
 
 ---
 
-## ⚙️ Backend & Architecture (Serverpod)
-- 🚀 **100% Dart Stack**: Unified language for both frontend and backend, allowing shared models, endpoints, and validation logic.
-- 🗄️ **PostgreSQL Database**: Relational database handling user settings, feedbacks, waitlists, and custom app features.
-- 🛡️ **Session Management**: Secure token handling, silent token refreshing, and strict endpoint access control based on the 42 API OAuth2 session.
-- 🧱 **Clean Architecture Core**: Strict separation of concerns (Data, Domain, Presentation layers) extended from the frontend to handle external API integrations robustly.
+## 🛠️ Technology Stack
+
+The project embraces a full-Dart ecosystem, sharing models and logic between the frontend and the backend.
+
+### Frontend (Mobile App)
+*   **Framework**: [Flutter](https://flutter.dev/) (Dart)
+*   **State Management**: BLoC / Cubit pattern
+*   **Dependency Injection**: GetIt
+*   **Routing**: GoRouter
+*   **Localization**: Flutter Localizations (ARB files)
+
+### Backend (API Server)
+*   **Framework**: [Serverpod](https://serverpod.dev/) (Dart)
+*   **Database**: PostgreSQL
+*   **Caching**: Redis
+*   **Authentication**: Custom 42 Identity Provider integrated with Serverpod Auth.
 
 ---
 
-## 🖼️ Screenshots
-<p align="center">
-  <img src="../assets/mi_fortitu/mi_fortitu_01.webp" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_02.webp" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_03.webp" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_04.webp" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_05.webp" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_06.webp" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_07.webp" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_08.webp" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_09.webp" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_10.webp" width="200" />
-  <img src="../assets/mi_fortitu/mi_fortitu_11.webp" width="200" />
-</p>
+## 🔒 Privacy & Security
+
+We take student privacy seriously. The app is built with a "device-first" approach for sensitive data:
+*   **Intra 42 Data**: All personal progress, projects, and coalition data flow directly from the 42 API to the user's device. Our backend does not store your academic records.
+*   For more details, check out our [Privacy Policy](URL_PRIVACY_POLICY).
 
 ---
 
-## 🏗️ Challenges
-- **Migrating to a Custom Backend** – Moving from BaaS (Supabase) to a fully custom Serverpod backend, meaning designing the database schemas, writing custom endpoints, and handling server-side authentication manually.
-- **Complex Authentication Flows** – Orchestrating the 42 Intra API OAuth2 session lifecycle within the app, including an in-app WebView integration for seamless UX.
-- **Scalable State Management** – Coordinating multiple Cubits/Blocs across screens, managing caching for heavy API calls (like campus layouts), and ensuring predictable UI updates.
-- **Clean Architecture Maintenance** – Balancing feature-based organization with shared core elements across both the Flutter client and the Serverpod server without duplicating logic.
+## 📱 Screenshots
+
+> **Note:** Check out the app in action on the [App Store](URL_APPLE_STORE) or [Google Play](URL_GOOGLE_PLAY) for high-resolution screenshots and previews!
 
 ---
 
-## 📅 Timeline
-- **Concept & Initial Flutter Development:** 12/2024
-- **Beta Release (BaaS Edition):** 07/2025
-- **Fullstack Migration (Serverpod):** 03/2026
-- **Google Play & Apple App Store Beta Release:** 05/2027
-- **Current Stable Version:** 2.2.2
+## 🤝 Contributing & Feedback
+
+**Mi Fortitu is a community-driven project.** We highly encourage and welcome contributions from fellow 42 students! 
+
+*   **🌐 Translations:** Want the app in your language? Help us add new translations!
+*   **🗺️ Campus Mapping:** We need help mapping the cluster layouts for different 42 campuses around the world so everyone can find their peers.
+*   **🐛 Feedback & Bug Reports:** Any feedback, feature requests, or bug reports are incredibly valuable to us.
+
+If you want to collaborate or have an idea to improve the app, please don't hesitate to open an issue or reach out!
+
+---
+
+## 🧑‍💻 Development & Architecture Highlights
+
+*   **Clean Architecture**: Separation of concerns across Presentation, Domain, and Data layers.
+*   **Shared Protocol**: Leveraging Serverpod's generated client, ensuring 100% type safety between the backend database and the Flutter UI.
+*   **Role-Based Access Control**: Built-in hierarchy distinguishing standard students, campus staff, testers, and system administrators.
+
+---
+<div align="center">
+  <i>Developed with ❤️ by a 42 Student for 42 Students.</i>
+</div>
